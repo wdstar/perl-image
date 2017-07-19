@@ -1,4 +1,4 @@
 FROM alpine
 
-RUN apk update
-RUN apk add perl
+RUN apk update && \
+    apk add perl
